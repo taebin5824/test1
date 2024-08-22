@@ -1,0 +1,38 @@
+package javaex01;
+
+import java.util.Scanner;
+
+public class javaEx01 {
+
+	public static void main(String[] args) {
+		// 콘솔 출력
+		System.out.println("Hello, Java!");  //줄바꿈 o
+		System.out.print("Enter your name :"); // 줄바꿈x
+		/*
+		//콘솔 입력
+		Scanner sc = new Scanner(System.in);
+		String name = sc.nextLine(); //nextInt() 정수 //nextDouble() 실수
+		
+		System.out.println("Welcom, "+ name + "!");
+		*/
+		
+		
+		// 변수 : 데이터 저장하는 메모리 공간, 선언과 초기화
+		// 데이터 타입
+		// 정수형
+		int age = 24;
+		long population = 890000000000000L;
+		// 실수형
+		double height = 181.1;
+		float weight = 80.3F;
+		// 문자형
+		char ch = '3';
+		// 논리형
+		boolean isStydent = true; //true or false
+		
+		//출력
+		System.out.println("Age: " + age);
+
+	}
+
+}
